@@ -42,8 +42,8 @@ CaseStudy Forge eliminates that last mile entirely.
 
 | Layer | Technology |
 |---|---|
-| Voice AI | Gemini Live API (`gemini-2.0-flash-live-001`) — bidirectional audio streaming |
-| Analysis | Gemini Flash (`gemini-2.0-flash`) — SCQA narrative engine |
+| Voice AI | Gemini Live API (`gemini-2.5-flash-live-001`) — bidirectional audio streaming |
+| Analysis | Gemini Flash (`gemini-2.5-flash`) — SCQA narrative engine |
 | Backend | FastAPI + Python 3.12, uvicorn |
 | TTS | ElevenLabs Turbo v2.5 (gTTS fallback when key is absent) |
 | Slide rendering | Playwright (headless Chromium) → 1920×1080 PNG |
@@ -83,7 +83,7 @@ sudo apt-get install ffmpeg
 ### Step 1 — Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/casestudy-forge.git
+git clone https://github.com/S1tanshu/casestudy-forge.git
 cd casestudy-forge
 ```
 
