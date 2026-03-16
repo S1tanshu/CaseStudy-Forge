@@ -28,8 +28,8 @@ Tools like Gamma and Beautiful.ai generate slides from prompts. None of them:
 
 | Layer | Technology |
 |---|---|
-| Voice AI | Gemini Live API (`gemini-2.0-flash-live`) |
-| Analysis | Gemini Flash (`gemini-2.0-flash`) — SCQA narrative engine |
+| Voice AI | Gemini Live API (`gemini-2.5-flash-live`) |
+| Analysis | Gemini Flash (`gemini-2.5-flash`) — SCQA narrative engine |
 | Backend | FastAPI + Python 3.12 |
 | TTS | ElevenLabs Turbo v2.5 (gTTS fallback) |
 | Slide rendering | Playwright (headless Chromium) → 1920×1080 PNG |
@@ -75,12 +75,6 @@ uvicorn main:app --host 127.0.0.1 --port 8080 --reload
 ```
 
 Open `http://127.0.0.1:8080`
-
----
-
-## Deployment (Google Cloud Run)
-
-See [Cloud Run Deployment](#) section below or use the included `Dockerfile` and `cloudbuild.yaml`.
 
 ---
 
