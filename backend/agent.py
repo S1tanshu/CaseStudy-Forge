@@ -5,6 +5,8 @@ from google import genai
 from google.genai import types
 from dotenv import load_dotenv
  
+# Google Cloud Service: Gemini Live API (gemini-2.5-flash-live-001)
+# Endpoint: generativelanguage.googleapis.com via google-genai SDK
 load_dotenv()
  
 client = genai.Client(api_key=os.getenv('GEMINI_API_KEY'))
