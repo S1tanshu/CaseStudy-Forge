@@ -1,0 +1,51 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+ 
+# Google Gemini
+google-genai==0.8.0
+ 
+# Data processing
+pandas==2.2.2
+numpy==1.26.4
+ 
+# Chart generation
+matplotlib==3.9.0
+plotly==5.22.0
+kaleido==0.2.1
+ 
+# Report generation
+python-docx==1.1.2
+python-pptx==0.6.23
+Jinja2==3.1.4
+lxml
+
+#chart generation
+matplotlib
+plotly
+kaleido
+
+#data processing
+pandas
+numpy
+
+# Audio summary
+gTTS==2.5.1 #used as a fallback when elevenlabs api key is absent
+elevenlabs
+requests
+
+# Utilities
+python-dotenv==1.0.1
+aiofiles==23.2.1
+
+#video composer
+ffmpeg-python==0.2.0
+
+# Cinematic upgrade additions
+playwright
+pillow==9.5.0
+
+#Utilities
+python-dotenv
+aiofiles
